@@ -6,8 +6,7 @@ import anthropic
 import re
 import time
 
-old_key = "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"
-uniwiz_key = "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"
+uniwiz_key = ""
 ant_client = anthropic.Client(
     api_key=uniwiz_key)
 

@@ -18,7 +18,7 @@ tqdm.pandas()
 # nlp = spacy.load('en_core_web_sm')
 
 ant_client = anthropic.Client(
-    api_key="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")
+    api_key="")
 
 ANS_RE = re.compile(r"#### (\-?[0-9\.\,]+)")
 INVALID_ANS = "[invalid]"

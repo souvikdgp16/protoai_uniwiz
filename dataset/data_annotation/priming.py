@@ -22,7 +22,7 @@ sid_obj = SentimentIntensityAnalyzer()
 # nlp = spacy.load('en_core_web_sm')
 
 ant_client = anthropic.Client(
-    api_key="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")
+    api_key="")
 
 
 def anthropic_api_response(prompt):
