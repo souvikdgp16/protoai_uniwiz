@@ -6,9 +6,8 @@ import anthropic
 import re
 import time
 
-uniwiz_key = ""
 ant_client = anthropic.Client(
-    api_key=uniwiz_key)
+    api_key="")
 
 
 def anthropic_api_response(prompt, model=None):
